@@ -24,7 +24,7 @@ myWidget::myWidget(QWidget *parent)
 {
     //创建一个按钮
     QPushButton * btn = new QPushButton;
-    //btn->show(); //show以顶层方式弹出窗口控件
+    //btn->show(); //show以顶层方式弹出窗口控件，不注释show的话不会显示第一个按钮的文字窗口
     //让btn对象 依赖在 myWidget窗口中
     btn->setParent(this);
 
